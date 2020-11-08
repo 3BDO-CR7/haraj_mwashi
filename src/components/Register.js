@@ -257,23 +257,22 @@ class Register extends Component {
 
 
     async setAsyncStorage(response) {
-
         if(response.data.value === '1')
       {
           CONST.showToast(  response.data.msg,   "success")
-
           // Toast.show({ text: response.data.msg, duration : 2000  ,type :'success',textStyle: { color: "white",fontFamily            : 'CairoRegular' ,textAlign:'center' } });
           //await AsyncStorage.setItem('plusUserId', JSON.stringify(response.data.user_id));
 
-           this.props.navigation.navigate('Confirmation',
-                 {
-                     phone: this.state.phone,
-                     key : this.state.key,
-                     password: this.state.password,
-                     user_id :response.data.user_id,
-                     code    : response.data.code
-              });
+           // this.props.navigation.navigate('Confirmation',
+           //       {
+           //           phone: this.state.phone,
+           //           key : this.state.key,
+           //           password: this.state.password,
+           //           user_id :response.data.user_id,
+           //           code    : response.data.code
+           //    });
 
+          this.props.navigation.navigate('login')
 
       }else if(response.data.value === '2')
        {

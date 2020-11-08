@@ -147,18 +147,18 @@ class DetilsE3lan extends Component {
 
     componentWillMount() {
 
-        axios.post(`${CONST.url}reportCommentReason`, )
-            .then( (response)=> {
-
-                this.setState({
-                    spinner: false,
-                    reports : response.data.data
-                });
-
-            })
-            .catch( (error)=> {
-                this.setState({spinner: false});
-            });
+        // axios.post(`${CONST.url}reportCommentReason`, )
+        //     .then( (response)=> {
+        //
+        //         this.setState({
+        //             spinner: false,
+        //             reports : response.data.data
+        //         });
+        //
+        //     })
+        //     .catch( (error)=> {
+        //         this.setState({spinner: false});
+        //     });
 
         this.runPlaceHolder();
 

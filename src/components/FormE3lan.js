@@ -33,7 +33,7 @@ import {connect}   from "react-redux";
 import * as Location from 'expo-location'
 import * as Permissions from 'expo-permissions'
 import I18n from "ex-react-native-i18n";
-import {CameraBrowser} from 'expo-multiple-imagepicker';
+// import {CameraBrowser} from 'expo-multiple-imagepicker';
 import { ImageBrowser } from 'expo-multiple-media-imagepicker';
 let    base_64   = [];
 import CONST from '../consts';
@@ -322,8 +322,26 @@ class AddE3lan extends React.Component {
     images_video = async (i) => {
 
         if (i.i === 0) {
-            this.setState({imageBrowserOpen: true});
+            // this.setState({imageBrowserOpen: true});
 
+            let result = await ImagePicker.launchImageLibraryAsync({
+                mediaTypes: ImagePicker.MediaTypeOptions.All,
+                aspect: [4, 3],
+                quality : .5,
+
+            });
+            if (!result.cancelled) {
+                this.setState({
+                    Base64: this.state.Base64.concat(result.uri)
+                });
+                Base64_.push(result.base64);
+                data.append("images[]",{
+                    uri : result.uri,
+                    type : 'image/jpeg',
+                    name : result.filename || `temp_image_${result.filename}.jpg`
+                });
+
+            }
         } else if (i.i === 1) {
 
             let result = await ImagePicker.launchCameraAsync({
@@ -621,9 +639,9 @@ class AddE3lan extends React.Component {
     render() {
 
         if (this.state.imageBrowserOpen) {
-            return(<ImageBrowser base64={true} max={7} callback={this.imageBrowserCallback}/>);
+            return(<ImageBrowser base64={true} max={5} callback={this.imageBrowserCallback}/>);
         }else if (this.state.cameraBrowserOpen) {
-            return(<CameraBrowser base64={true} max={7} callback={this.imageBrowserCallback}/>);
+            //return(<CameraBrowser base64={true} max={5} callback={this.imageBrowserCallback}/>);
         }
         return (
             <Container>
@@ -645,7 +663,7 @@ class AddE3lan extends React.Component {
                         <View >
                             <TouchableOpacity onPress={()=> this.open()}>
                                 <View style={styles.blockUpload}>
-                                    <Icon style={styles.iconUpload, styles.text_darkGreen} active type="AntDesign" name='pluscircleo' />
+                                    <Icon style={[styles.iconUpload, styles.text_darkGreen]} active type="AntDesign" name='pluscircleo' />
                                     <Text style={[styles.textes, styles.text_darkGreen]}>
                                         {I18n.translate('image_video')}
                                     </Text>

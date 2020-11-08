@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {StyleSheet, Text, View, I18nManager, Image, TouchableOpacity, ScrollView, FlatList} from 'react-native';
+import {StyleSheet, Text, View, I18nManager, Image, TouchableOpacity, ScrollView, FlatList,Alert} from 'react-native';
 import {
     Container,
     Content,
