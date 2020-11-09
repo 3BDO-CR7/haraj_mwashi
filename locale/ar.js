@@ -253,6 +253,7 @@ const ar = {
     'pohot': 'صوره شخصيه',
     'choice': 'اختياري',
     'nuFav': 'عدد التقييمات',
+    'videshoww': 'اضغط هنا لمشاهدة فيديو الآعلان',
 }
 
 export default ar;

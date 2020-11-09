@@ -508,6 +508,23 @@ class DetilsE3lan extends Component {
                         }
 
                         {
+                            (this.state.blog.is_video === '1')
+                                ?
+                                <View style={[ styles.flexCenter ]}>
+                                    <Text style={[ styles.textRegular, styles.text_darkGreen, styles.textSize_18, styles.paddingHorizontal_10 ]}>
+                                        {I18n.translate('videshoww')}
+                                    </Text>
+                                    <TouchableOpacity onPress={()=> this.setState({is_video : true})}>
+                                        <Text>
+                                            <Icon name="video" type="Entypo" style={{color: '#F00'}}/>
+                                        </Text>
+                                    </TouchableOpacity>
+                                </View>
+                                :
+                                <View/>
+                        }
+
+                        {
                             this.state.spinner ?
                                 this._renderRows(this.loadingAnimated, 5, '5rows')
                                 :
@@ -605,17 +622,7 @@ class DetilsE3lan extends Component {
                             }
 
                         </View>
-                        {
-                            (this.state.blog.is_video === '1')
-                                ?
-                                <TouchableOpacity onPress={() => this.setState({is_video: true})}>
-                                    <Text style={[ styles.textCenter ]}>
-                                        <Icon name="video" type="Entypo" style={{color: '#F00'}}/>
-                                    </Text>
-                                </TouchableOpacity>
-                                :
-                                <View/>
-                        }
+
                         <View style={styles.comment}>
                             <Text style={[styles.TiTle, styles.textSize_16]}>- {I18n.translate('comments')}</Text>
                             {this.state.comments.map((comment, i) => {
@@ -676,10 +683,12 @@ class DetilsE3lan extends Component {
                                     source={{uri: this.state.blog.video}}
                                     shouldPlay
                                     resizeMode="cover"
-                                    style={{width: '100%', height: 300}}
+                                    style={{width: '100%', height: 400}}
                                 />
-                                <TouchableOpacity onPress={() => {this.setState({is_video: false})}}>
-                                    <Text style={{color: 'white', textAlign: 'center', fontSize: 22}}>{I18n.translate('cancel')}</Text>
+                                <TouchableOpacity
+                                    style={{padding : 6}}
+                                    onPress={() => {this.setState({is_video: false})}}>
+                                    <Text style={[ styles.textRegular, styles.text_White, styles.textSize_18 ]}>{I18n.translate('cancel')}</Text>
                                 </TouchableOpacity>
                             </View>
                         </Modal>

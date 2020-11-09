@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc32b65a-b0f2-44fd-ba9a-13a7b461e61c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/product.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/product.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactotronConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactotronConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/locale/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DetilsE3lan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DetilsE3lan.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -29,45 +35,18 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1377781580">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="js" value="5" />
-          <entry key="php" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JavaScript" value="5" />
-          <entry key="PHP" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="js" value="10" />
-          <entry key="json" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="10" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/DetilsE3lan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="685" column="68" selection-start-line="685" selection-start-column="68" selection-end-line="685" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/AuthReducer.js" />
         <option value="$PROJECT_DIR$/src/components/AboutCommission.js" />
         <option value="$PROJECT_DIR$/src/components/Commission.js" />
         <option value="$PROJECT_DIR$/src/components/Contact.js" />
@@ -142,12 +120,10 @@
         <option value="$PROJECT_DIR$/src/components/TermsE3lan.js" />
         <option value="$PROJECT_DIR$/src/components/WatchLater.js" />
         <option value="$PROJECT_DIR$/src/components/Categories.js" />
-        <option value="$PROJECT_DIR$/locale/en.js" />
         <option value="$PROJECT_DIR$/src/components/ChooseBank.js" />
         <option value="$PROJECT_DIR$/src/components/Chat.js" />
         <option value="$PROJECT_DIR$/src/components/Filter.js" />
         <option value="$PROJECT_DIR$/src/components/MyAds.js" />
-        <option value="$PROJECT_DIR$/src/components/DetilsE3lan.js" />
         <option value="$PROJECT_DIR$/src/components/Tabs.js" />
         <option value="$PROJECT_DIR$/src/components/Language.js" />
         <option value="$PROJECT_DIR$/src/components/About.js" />
@@ -165,7 +141,6 @@
         <option value="$PROJECT_DIR$/src/components/addPhotoAds.js" />
         <option value="$PROJECT_DIR$/src/components/FormE3lan.js" />
         <option value="$PROJECT_DIR$/src/components/EditPhotoAd.js" />
-        <option value="$PROJECT_DIR$/locale/ar.js" />
         <option value="$PROJECT_DIR$/assets/style/index.js" />
         <option value="$PROJECT_DIR$/src/components/NewPassword.js" />
         <option value="$PROJECT_DIR$/src/components/ForgetPassword.js" />
@@ -176,29 +151,16 @@
         <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$USER_HOME$/.bitnami/stackman/machines/xampp/volumes/root/htdocs/dashboard-dr/app/Repositories/Eloquent/UserRepository.php" />
+        <option value="$PROJECT_DIR$/ReactotronConfig.js" />
+        <option value="$PROJECT_DIR$/locale/ar.js" />
+        <option value="$PROJECT_DIR$/locale/en.js" />
+        <option value="$PROJECT_DIR$/src/components/DetilsE3lan.js" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="2" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1089" />
+    <option name="width" value="1090" />
     <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -207,53 +169,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="haraj_mwashi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-dr" type="462c0819:PsiDirectoryNode" />
+              <item name="haraj_mwashi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="haraj_mwashi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-dr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="haraj_mwashi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="haraj_mwashi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-dr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="haraj_mwashi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="haraj_mwashi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-dr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haraj_mwashi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-dr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haraj_mwashi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-dr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Traits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haraj_mwashi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard-dr" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="haraj_mwashi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="consts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,16 +266,19 @@
       <workItem from="1598410092982" duration="802000" />
       <workItem from="1598413534675" duration="5159000" />
       <workItem from="1598517805699" duration="154000" />
+      <workItem from="1604832812148" duration="1850000" />
+      <workItem from="1604911677015" duration="278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147006000" />
+    <option name="totallyTimeSpent" value="149134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1090" height="809" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29266056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -351,20 +298,14 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.21530758" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.21527778" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/no_data.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Categories.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -397,13 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DetilsE3lan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="396" lean-forward="true" selection-start-line="396" selection-end-line="396" />
         </state>
       </provider>
     </entry>
@@ -477,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RootNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/EditPhotoAd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -498,13 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FormE3lan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="647" column="89" selection-start-line="647" selection-start-column="89" selection-end-line="647" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Edit_ad.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -516,13 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="431" column="106" selection-start-line="431" selection-start-column="106" selection-end-line="431" selection-end-column="106" />
         </state>
       </provider>
     </entry>
@@ -575,20 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locale/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="255" selection-start-line="255" selection-end-line="255" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locale/ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3780">
-          <caret line="252" column="24" selection-start-line="252" selection-start-column="24" selection-end-line="252" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34635">
@@ -617,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/consts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/consts/colors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -643,5 +535,61 @@
     <entry file="file://$USER_HOME$/.bitnami/stackman/machines/xampp/volumes/root/htdocs/dashboard-dr/app/Libraries/Sms.php" />
     <entry file="file://$USER_HOME$/.bitnami/stackman/machines/xampp/volumes/root/htdocs/dashboard-dr/app/Traits/Responses.php" />
     <entry file="file://$USER_HOME$/.bitnami/stackman/machines/xampp/volumes/root/htdocs/dashboard-dr/app/Repositories/Eloquent/UserRepository.php" />
+    <entry file="file://$PROJECT_DIR$/src/components/Register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="226" column="4" selection-start-line="226" selection-start-column="4" selection-end-line="226" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FormE3lan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="473" column="55" lean-forward="true" selection-start-line="473" selection-start-column="55" selection-end-line="473" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RootNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactotronConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="252" column="56" selection-start-line="252" selection-start-column="56" selection-end-line="252" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="255" column="50" selection-start-line="255" selection-start-column="50" selection-end-line="255" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DetilsE3lan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="685" column="68" selection-start-line="685" selection-start-column="68" selection-end-line="685" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

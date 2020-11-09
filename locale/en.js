@@ -250,6 +250,7 @@ const en = {
     'pohot': 'personal photo',
     'choice': 'choice',
     'nuFav': 'number of ratings',
+    'videshoww': 'click here to watch the video of adv',
 }
 
 export default en;
