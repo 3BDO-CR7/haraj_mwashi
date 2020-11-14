@@ -82,6 +82,8 @@ class DetilsE3lan extends Component {
             reportModal  : false,
             reportId          : null,
             repBlogId          : null,
+            index : 0,
+            resetImageByIndex : 0
         };
 
     }
@@ -437,20 +439,35 @@ class DetilsE3lan extends Component {
                                         {this.state.blog.price} {this.state.currency}
                                     </Text>
                                 </View>
-                                <Swiper containerStyle={styles.wrapper} autoplay={true}>
+                                <Swiper
+                                    containerStyle={[styles.wrapper]}
+                                    autoplayDelay={1.5}
+                                    autoplayLoop
+                                    key={this.state.images.length}
+                                    autoplayTimeout={2}
+                                    autoplay={true}
+                                >
                                     {
                                         this.state.images.map((slider, i) => {
                                             return (
                                                 <View key={i}>
-                                                    <TouchableOpacity onPress={() => {this.setState({isImageViewVisible: true})}}>
-                                                        <Image style={styles.slide} source={{uri: slider.url}}/>
+                                                    <TouchableOpacity onPress={() => {this.setState({isImageViewVisible: true,resetImageByIndex : i,})}}>
+                                                        <Image style={styles.slide} source={{uri: slider.url}} resizeMode={'stretch'} />
                                                     </TouchableOpacity>
                                                 </View>
                                             )
                                         })
                                     }
                                 </Swiper>
-                            </View>}
+                            </View>
+                        }
+
+                        <Modal style={{backgroundColor:'transeprent'}} visible={this.state.isImageViewVisible} transparent={true} enableImageZoom={true}  enableSwipeDown={true} >
+                            <ImageViewer style={{backgroundColor:'transeprent'}} imageUrls={this.state.blog.images} index={this.state.resetImageByIndex}/>
+                            <TouchableOpacity  style={{ position:'absolute' , top : 35 , right : 20}} onPress={() => this.setState({isImageViewVisible: false})}>
+                                <Icon name="close" style={{fontSize:30,color : 'white'   }}/>
+                            </TouchableOpacity>
+                        </Modal>
 
                         {
                             this.state.spinner ?
@@ -731,28 +748,7 @@ class DetilsE3lan extends Component {
                             </ScrollView>
                         </View>
 
-                        <Modal
-                            style={{backgroundColor: 'transeprent'}}
-                            visible={this.state.isImageViewVisible}
-                            transparent={true}
-                            enableImageZoom={true}
-                            enableSwipeDown={true}
-                        >
-                            <ImageViewer
-                                style={{backgroundColor: 'transeprent'}}
-                                imageUrls={this.state.blog.images}
-                                onSaveToCamera = {true}
-                            />
-                            <TouchableOpacity
-                                style={{position: 'absolute', top: 35, right: 20}}
-                                onPress={() => this.setState({isImageViewVisible: false})}
-                            >
-                                <Icon
-                                    name="close"
-                                    style={{fontSize: 30, color: 'white'}}
-                                />
-                            </TouchableOpacity>
-                        </Modal>
+
                     </View>
                 </Content>
 

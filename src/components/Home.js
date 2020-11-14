@@ -213,7 +213,7 @@ class Home extends React.Component {
                         style={[ styles.rowGroup, styles.paddingHorizontal_5, styles.Border_Btn_Opc_Gray, styles.paddingVertical_5 ]}
                     >
                         <View style={[ styles.flex_30, styles.height_80 ]}>
-                            <Image style={[styles.Radius_5,  styles.Width_100, styles.heightFull, styles.Border, styles.borderOpcityGray]}  {...{preview, uri : item.img}}  />
+                            <Image style={[styles.Radius_5,  styles.Width_100, styles.heightFull, styles.Border, styles.borderOpcityGray]}  {...{preview, uri : item.img}}  resizeMode={'stretch'} />
                         </View>
                         <View style={[ styles.paddingHorizontal_10, styles.flex_70 ]}>
                             <View  onPress={() => {this.props.navigation.navigate('details',{ blog_id : item.id})} }>
@@ -241,7 +241,7 @@ class Home extends React.Component {
                 <TouchableOpacity onPress={() => { this.props.navigation.navigate({routeName: 'details', params: {blog_id: item.id,}, key: 'APage' + i})}}>
                     <View style={[styles.block_section_mero ]}>
                         <View style={{ position : 'relative', overflow : 'hidden' }}>
-                            <Image style={styles.image_MAZAD} {...{preview, uri : item.img}}/>
+                            <Image style={styles.image_MAZAD} {...{preview, uri : item.img}} resizeMode={'stretch'}/>
                             <Text style={[styles.textDate,{textAlign:'right',fontSize : 10 , fontFamily :'CairoBold'}]}>
                                 {I18n.translate('price')} : {item.price}
                             </Text>
